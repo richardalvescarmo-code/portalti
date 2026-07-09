@@ -1,0 +1,171 @@
+.cards {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    width: 260px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+
+}
+
+
+
+.card h3 {
+
+    margin-top: 0;
+
+}
+
+
+
+.card button {
+
+    background: #0066cc;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+.card button:hover {
+
+    background:#004c99;
+
+}body {
+    background: rgb(117, 108, 108) !important;
+}/* Área de softwares */
+
+main {
+    padding: 30px;
+}
+
+
+main h2 {
+    color: #1e293b;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 25px;
+
+}
+
+
+
+.card {
+
+    background: #ffffff;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    border: 1px solid #e5e7eb;
+
+    transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+
+}
+
+
+
+.card h3 {
+
+    color: #2563eb;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.card p {
+
+    color: #475569;
+
+    margin: 8px 0;
+
+}
+
+
+
+.card button {
+
+    margin-top: 15px;
+
+    width: 100%;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+
+.card button:hover {
+
+    background: #1d4ed8;
+
+}.icone {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
